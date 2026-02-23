@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Attendance System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>📊 Attendance Processor</h2>
+
+<form method="POST" enctype="multipart/form-data">
+<label>Upload Site Summary (.xlsx)</label>
+<input type="file" name="summary" required>
+
+<label>Upload Punching Report (.xlsx)</label>
+<input type="file" name="punch" required>
+
+<button type="submit">Generate Attendance</button>
+</form>
+
+</div>
+</body>
+</html>
